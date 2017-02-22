@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://twitter.github.com/bootstrap/examples/starter-template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Alejandro de la Vega</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">alejandro de la vega</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            <li><a href="research.html">research</a></li>
+            <li><a href="pubs.html">papers</a></li>
+            <li><a href="delavega_vita.pdf">vitae (pdf)</a></li>
+            <li class="active"><a href="resources.html">resources</a></li>
+            <li><a href="personal.html">personal</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    	<div class="row"><div class="span8">
+        <p class="lead"> R for Psychologists</p>
+        <p><strong>I will be teaching this again starting December 1st @ 2pm in Muen D334. RSVP by email.</strong><br>
+        I've previously taught this workshop as <a href ="http://psych.colorado.edu/clipr/home.html">CLIPR</a> TA in the Fall and Spring of 2013 and the Fall of 2014. <br><br>
+          The series was designed to give a succinct introduction to R, highlighting the essential methods needed for data analysis. I placed a heavy emphasis
+          on add on packages that improve functionality from base R. Given the variety of ways to accomplish the same goal in R, that often confuse the novice,
+          I focused on a few hand-picked packages that follow best practice guidelines and are particularly helpful for the types of data often seen in psychology. This short workshop should allow you to get up and running in R quickly and efficiently. This workshop is aimed at people with prior experience in data analysis but with little
+          experience in R. If you have no data analysis experience, I reccomend a more thorough introduction so you can understand why the methods I emphasize are important.
+  			
+        <ol>
+          <li><b>Introduction</b> <br>What is R and why would you want to use it? What are the basic data types and how do you manipulate them? How do you access, load and manipulate data?
+            <br><a href="R/Intro.pdf">Slides</a> | <a href="R/Intro_excercise.docx">Excercise</a>
+          </li>
+          <li><b>Data wrangling: Reshaping, Splitting and Merging</b> <br>Want to pull your hair out changing the format of your data in Excel? Wish you knew how to explore your data better? Here we cover how to easily go from wide to long format using <i>reshape2</i>, use split-apply-merge techniques to summarize data using <i>plyr</i> and other tips and tricks to make dealing with your data easier using R.
+            <br><a href="R/R2_slides.html">Slides</a> | <a href="R/R_2_Excercise_NoAnswers.html">Excercise without answers</a> | <a href="R/R_2_Excercise_Answers.html">Excercise with answers</a> | <a href="http://psych.colorado.edu/wiki/lib/exe/fetch.php?media=labs:clipr:intror2_data.zip">Data for excercise</a></li></li>
+          <li><b>Linear models, contrast codes and plotting with ggplot2</b> <br>The basics of running a linear model, setting up contrast codes to test a specific model and how to plot the results in R.
+
+We will be using the <i>lm</i> function for linear modeling, the <i>recode</i> function from the car package for contrast coding, and mainly <i>ggplot2</i> for plotting.
+            <br><a href="http://rpubs.com/aleph4/9438">Slides</a></li>
+
+
+        </ol>
+		</div>
+      
+    </div> <!-- /container -->	
+
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42213831-1', 'colorado.edu');
+  ga('send', 'pageview');
+
+</script>
+  
+
+</body><style type="text/css"></style></html>

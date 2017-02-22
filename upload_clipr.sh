@@ -1,0 +1,1 @@
+rsync -a ./ -e ssh alejandro@psych.colorado.edu:~/Sites
