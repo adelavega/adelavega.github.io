@@ -1,0 +1,25 @@
+a {
+  outline: 0;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: opacity 0.4s linear;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+  a:hover, a:active {
+    color: #33b5e5;
+    text-decoration: none;
+    -webkit-transition: opacity 0.4s linear;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+a.under {
+  border-bottom: 1px dotted #000;
+  border-bottom-color: #a9aeba;
+}
