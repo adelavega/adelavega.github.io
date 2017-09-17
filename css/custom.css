@@ -23,3 +23,15 @@ a.under {
   border-bottom: 1px dotted #000;
   border-bottom-color: #a9aeba;
 }
+
+.navbar-collapse {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-top: -50px;
+    }
+}
